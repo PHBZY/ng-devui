@@ -23,6 +23,11 @@ export class UploadDemoComponent {
     {title: 'HTML', language: 'xml', code:  require('!!raw-loader!./auto/auto.component.html')},
     {title: 'TS', language: 'typescript', code:  require('!!raw-loader!./auto/auto.component.ts')}
   ];
-  constructor() {
-  }
+
+  navItems = [
+    { dAnchorLink: 'basic-usage', value: '基本用法'},
+    { dAnchorLink: 'multi', value: '多文件上传'},
+    { dAnchorLink: 'auto', value: '自动上传'},
+    { dAnchorLink: 'customize', value: '自定义'}
+  ];
 }

@@ -18,6 +18,8 @@ export class TagsInputDemoComponent {
     {title: 'TS', language: 'typescript', code:  require('!!raw-loader!./async/async.component.ts')}
   ];
 
-  constructor() {
-  }
+  navItems = [
+    { dAnchorLink: 'basic-usage', value: '基本用法'},
+    { dAnchorLink: 'tags-input-async', value: '异步数据源'}
+  ];
 }

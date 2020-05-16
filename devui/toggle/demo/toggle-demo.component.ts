@@ -12,6 +12,7 @@ export class ToggleDemoComponent {
     { title: 'CSS', language: 'css', code: require('!!raw-loader!./basic/basic.component.css') }
   ];
 
-  constructor() {
-  }
+  navItems = [
+    { dAnchorLink: 'basic-usage', value: '基本用法'}
+  ];
 }
